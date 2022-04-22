@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300&display=swap');
+
+* {
+   background-color: #141519;
+   color: rgb(255, 255, 255);
+
+}
+
+.container {
+   display: block;
+   width: 337px;
+   height: 367px;
+   border-radius: 12px;
+   padding: 35px;
+   background-color: #232a34fe;
+   text-align: left;
+   margin: 10% auto;
+
+}
+
+.imag {
+   background-color: inherit;
+}
+
+.imag img {
+   background-color: #262e38;
+   padding: 15px;
+   border-radius: 50%;
+}
+
+.titulo {
+   background-color: #232a34fe;
+   color: #ffffff;
+}
+
+.parrafo {
+   background-color: inherit;
+   color: #9299a3;
+}
+
+.contenedorNumeros {
+   display: flex;
+   background-color: inherit;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   color: #9299a3;
+   justify-content: space-around;
+}
+
+.numeros {
+   background-color: #262e38;
+   color: #52565c;
+   height: 15px;
+   width: 15px;
+   padding: 18px;
+   border-radius: 50%;
+   text-align: center;
+   cursor: pointer;
+}
+
+.numeros:hover {
+   background-color: #fc7712;
+   color: #ffffff;
+}
+
+.boton {
+   border: none;
+   width: 100%;
+   padding: 10px;
+   border-radius: 30px;
+   background-color: #ffffff;
+   color: #da833e;
+   cursor: pointer;
+}
+
+.boton:hover {
+   background-color: #fc7712;
+   color: #ffffff;
+}
